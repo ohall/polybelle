@@ -1,6 +1,5 @@
 ﻿<link rel="import" href="bower_components/polymer/polymer.html">
 <link rel="import" href="bower_components/core-icon-button/core-icon-button.html">
-<link rel="import" href="bower_components/core-icons/iconsets/social-icons.html">
 
 <polymer-element name="post-card">
   <template>
@@ -35,12 +34,8 @@
         position: absolute;
         top: 3px;
         right: 3px;
-        fill: #636363;
+        color: #da4336;
     }
-    :host([favorite]) core-icon-button {
-        fill: #da4336;
-    }
-
     </style>
 
     <!-- CARD CONTENTS GO HERE -->
@@ -51,7 +46,7 @@
 
       <core-icon-button
               id="favicon"
-              icon="favorite"
+              icon="{{favorite?'favorite':'favorite-outline'}}"
               on-tap="{{favoriteTapped}}">
       </core-icon-button>
 
