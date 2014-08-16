@@ -1,58 +1,58 @@
 [
-  {
-    "uid": 1,
-    "text" : "Have you heard about the Web Components revolution?",
-    "username" : "Eric",
-    "avatar" : "images/avatar-01.svg",
-    "favorite": false
-  },
-  {
-    "uid": 2,
-    "text" : "Loving this Polymer thing.",
-    "username" : "Rob",
-    "avatar" : "images/avatar-02.svg",
-    "favorite": false
-  },
     {
-    "uid": 3,
-    "text" : "So last year...",
-    "username" : "Dimitri",
-    "avatar" : "images/avatar-03.svg",
-    "favorite": false
-  },
-  {
-    "uid": 4,
-    "text" : "Pretty sure I came up with that first.",
-    "username" : "Ada",
-    "avatar" : "images/avatar-07.svg",
-    "favorite": false
-  },
-  {
-    "uid": 5,
-    "text" : "Yo, I heard you like components, so I put a component in your component.",
-    "username" : "Grace",
-    "avatar" : "images/avatar-08.svg",
-    "favorite": false
-  },
-  {
-    "uid": 6,
-    "text" : "Centralize, centrailize.",
-    "username" : "John",
-    "avatar" : "images/avatar-04.svg",
-    "favorite": false
-  },
-  {
-    "uid": 7,
-    "text" : "Has anyone seen my cat?",
-    "username" : "Zelda",
-    "avatar" : "images/avatar-06.svg",
-    "favorite": false
-  },
-  {
-    "uid": 8,
-    "text" : "Decentralize!",
-    "username" : "Norbert",
-    "avatar" : "images/avatar-05.svg",
-    "favorite": false
-  }
+        "uid": 7,
+        "text" : "Applying and creating makeup styles is an art form on its own.",
+        "username" : "Zelda",
+        "avatar" : "images/avatar-06.svg",
+        "favorite": false
+    },
+    {
+        "uid": 1,
+        "text" : "Beautiful, Naturally stunning hair color.",
+        "username" : "Eric",
+        "avatar" : "images/avatar-01.svg",
+        "favorite": false
+    },
+    {
+        "uid": 2,
+        "text" : "Senior stylist at Glama-Rama Salon and Gallery.",
+        "username" : "Rob",
+        "avatar" : "images/avatar-02.svg",
+        "favorite": false
+    },
+    {
+        "uid": 3,
+        "text" : "L'Oréal Professionnel Master Session Artist.",
+        "username" : "Dimitri",
+        "avatar" : "images/avatar-03.svg",
+        "favorite": false
+    },
+    {
+        "uid": 4,
+        "text" : "Classically trained at one of the top cosmetology institutes in Seattle.",
+        "username" : "Ada",
+        "avatar" : "images/avatar-07.svg",
+        "favorite": false
+    },
+    {
+        "uid": 5,
+        "text" : "Freelance Hair Stylist based in NYC.",
+        "username" : "Grace",
+        "avatar" : "images/avatar-08.svg",
+        "favorite": false
+    },
+    {
+        "uid": 6,
+        "text" : "Aveda trained hair stylist who LOVES hair.",
+        "username" : "John",
+        "avatar" : "images/avatar-04.svg",
+        "favorite": false
+    },
+    {
+        "uid": 8,
+        "text" : "Excels at perfecting couture fashions, trendy cuts, and elegant up-do’s",
+        "username" : "Norbert",
+        "avatar" : "images/avatar-05.svg",
+        "favorite": false
+    }
 ]
