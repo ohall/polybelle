@@ -4,6 +4,7 @@
         "text" : "Applying and creating makeup styles is an art form on its own.",
         "username" : "Zelda",
         "avatar" : "images/avatar-06.svg",
+        "location" : "Brooklyn, NY",
         "favorite": false
     },
     {
@@ -11,6 +12,7 @@
         "text" : "Beautiful, Naturally stunning hair color.",
         "username" : "Eric",
         "avatar" : "images/avatar-01.svg",
+        "location" : "Washington, DC",
         "favorite": false
     },
     {
@@ -18,6 +20,7 @@
         "text" : "Senior stylist at Glama-Rama Salon and Gallery.",
         "username" : "Rob",
         "avatar" : "images/avatar-02.svg",
+        "location" : "Miami, FL",
         "favorite": false
     },
     {
@@ -25,6 +28,7 @@
         "text" : "L'Oréal Professionnel Master Session Artist.",
         "username" : "Dimitri",
         "avatar" : "images/avatar-03.svg",
+        "location" : "Austin, TX",
         "favorite": false
     },
     {
@@ -32,6 +36,7 @@
         "text" : "Classically trained at one of the top cosmetology institutes in Seattle.",
         "username" : "Ada",
         "avatar" : "images/avatar-07.svg",
+        "location" : "Seattle, WA",
         "favorite": false
     },
     {
@@ -39,6 +44,7 @@
         "text" : "Freelance Hair Stylist based in NYC.",
         "username" : "Grace",
         "avatar" : "images/avatar-08.svg",
+        "location" : "Toronto, Canada",
         "favorite": false
     },
     {
@@ -46,6 +52,7 @@
         "text" : "Aveda trained hair stylist who LOVES hair.",
         "username" : "John",
         "avatar" : "images/avatar-04.svg",
+        "location" : "Los Angeles, CA",
         "favorite": false
     },
     {
@@ -53,6 +60,7 @@
         "text" : "Excels at perfecting couture fashions, trendy cuts, and elegant up-do’s",
         "username" : "Norbert",
         "avatar" : "images/avatar-05.svg",
+        "location" : "San Francisco, CA",
         "favorite": false
     }
 ]

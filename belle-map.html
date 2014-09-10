@@ -1,0 +1,57 @@
+<link rel="import" href="bower_components/google-map/google-map.html">
+<link rel="import" href="bower_components/google-map/google-map-search.html">
+<link rel="import" href="post-service/post-service.html">
+
+
+<polymer-element name="belle-map">
+
+    <template>
+        <style>
+            :host {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                box-sizing: border-box;
+            }
+            #google_map {
+                width: 400px;
+                height: 400px;
+                display: block;
+                left: 10px;
+                top: 10px;
+                position: absolute;
+            }
+        </style>
+        <post-service id="service" posts="{{posts}}"></post-service>
+        <google-map-search map="{{map}}" query="{{stylist.location}}" result="{{result}}" ></google-map-search>
+
+        <google-map map="{{map}}" id="google_map">
+            <template repeat="{{stylist in getLocations(posts) }}" >
+                <google-map-marker map={{map}} latitude="{{stylist.latitude}}" longitude="{{stylist.longitude}}"></google-map-marker>
+            </template>
+        </google-map>
+                <!--<div>Result: {{stylist.location }}: {{result.latitude}}, {{result.longitude}}</div>-->
+    </template>
+
+    <script>
+        var search = document.querySelector('google-map-search'),
+            tabs = document.querySelector('paper-tabs'),
+            service = document.querySelector('post-service'),
+            posts;
+
+        tabs.addEventListener('core-select', function() {
+            posts = service.posts;
+            posts.forEach(function(post){
+                search.query = post.location;
+                post.latitude = search.result.latitude;
+                post.longitude = search.result.longitude;
+            });
+        });
+
+        Polymer('belle-map', {
+
+        });
+
+    </script>
+
+</polymer-element>
